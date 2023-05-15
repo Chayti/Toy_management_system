@@ -25,11 +25,14 @@ If possible, you can explore component libraries other than DaisyUI. Remember, a
     - Travel guru 
     - Volunteer network
     - Job Portal Website or Any conceptual session project etc.
-  **If any similarities are found, you will get zero(0) as a penalty.**
+   
+    <br/>
+
+    **If any similarities are found, you will get zero(0) as a penalty.**
 
 <br/>
 
-2. Make sure to keep the navbar and footer on all the pages except on the 404 page. Create a reasonable, stylish and meaningful footer. <b>(including website logo, name, copyright, some contact information, website motive, address etc.)</b>
+2. Make sure to keep the navbar and footer on all the pages **except on the 404 page**. Create a reasonable, stylish and meaningful footer. <b>(including website logo, name, copyright, some contact information, website motive, address etc.)</b>
 
 <br/>
 
@@ -46,12 +49,16 @@ If possible, you can explore component libraries other than DaisyUI. Remember, a
     - Google Sign-in
     - A link that will redirect to the registration page
 
+    <br/>
+
     > **Registration Page:**  The Registration page will have the Email/Password form having the following fields:
 
     - Name
     - Email
     - Password
     - Photo URL
+
+    <br/>
 
     > **Note:** Do not enforce the email verification method, as it will inconvenience the examiner. If you want, you can add email verification after receiving the assignment result.
 
@@ -64,19 +71,22 @@ If possible, you can explore component libraries other than DaisyUI. Remember, a
     - **Shop by category**- Implement a tab system for **Shop by category** section. Explore [React-tabs](https://www.npmjs.com/package/react-tabs) or you can implement this using custom css. There will be 3 tabs each containing sub-categories of the category you have chosen. 
     <br/>
 
-        > For example, if the website is based on **Educational and learning toys**, the sub-categories for the **3** tabs can be **Math Toys, Language Toys and Science Toys**.
+    > For example, if the website is based on **Educational and learning toys**, the sub-categories for the **3** tabs can be **Math Toys, Language Toys and Science Toys**.
     <br/>
 
-        Each tab will have minimum 3 data and each data will have the following information:
-        - Picture, 
-        - Name,
-        - Price, 
-        - Rating and 
-        - View Details button. 
+    > Each tab will have minimum 3 data and each data will have the following information:
+    - Picture, 
+    - Name,
+    - Price, 
+    - Rating and 
+    - View Details button. 
     
     <br/>
             
     > **Note:** When a user is not logged in and if he/ she clicks on the View Details button, notify the user with a message **“You have to log in first to add this item to your list”** by using a toast/ notification/ anything. Also, redirect him/ her to the login page. Without login, you can not visit the single toy details page.
+
+    - Add one relevant section. Try to make it attractive.
+
 
 <br/>
 
@@ -100,21 +110,25 @@ If possible, you can explore component libraries other than DaisyUI. Remember, a
     -   Toy name
     -   Sub-category
     -   View Details button
+    <br/>
 
     > Above the table, implement a search system based on the **Toy name.**
     <br/>
-    > Without logging in, if a user clicks on the **View Details** button, he/she will be redirected to the Login Page. Make sure to take the user to the Details Page, after the user successfully logs in.
+
+    Without logging in, if a user clicks on the **View Details** button, he/she will be redirected to the Login Page. Make sure to take the user to the Details Page, after the user successfully logs in.
 
 <br/>
 
-8. **`Single toy details route will be private routes:`**
+8. **`Single toy details route will be a private route:`**
     
     > After clicking on the **View Details** button, he/ she will be redirected to the **Toys Details** route **( /toy/:id )** containing the information **( picture, name, price, rating and detail description)**
 
 <br/>
 
-9. **`Add Toys page will be private routes:`** 
-    > Create an **Add Toys** page where there will be a form     having the following fields:
+9. **`Add Toys page will be a private route:`** 
+    <br/>
+
+    > Create an **Add Toys** page where there will be a form having the following fields:
     - Picture url of the toy,
     - Name,
     - Sub-category, ( For example: if the website is based on Educational and learning toys, the sub-categories can be Math Toys, Language Toys and Science Toys.)
@@ -136,7 +150,7 @@ If possible, you can explore component libraries other than DaisyUI. Remember, a
         > **Note:** If a user logs in he/she will only see the toys he/she has added. The user cannot see the toys other users added.
     <br/>
 
-    *Bonus task: See the bonus point 4*
+    **Bonus task: See the bonus point 4**
 
 <br/>
 
@@ -167,8 +181,8 @@ If possible, you can explore component libraries other than DaisyUI. Remember, a
 
 2. **Reload & Responsive:** 
 
-    - Create a readme for **client-side** and write about your project (at least 5 bullet points).Do not forget to add your live site link of your website here. 
-    - Make your website home page mobile & desktop responsive (tablet responsive is optional) 
+    - If you reload the protected/private routes (after login), this page will not redirect the user to the login page. Instead, it will keep the logged-in user on the protected route. 
+    - Make your website mobile & desktop responsive (tablet responsive is optional)
 
 <br/>
 
