@@ -85,7 +85,7 @@ If possible, you can explore component libraries other than DaisyUI. Remember, a
             
     > **Note:** When a user is not logged in and if he/ she clicks on the View Details button, notify the user with a message **“You have to log in first to add this item to your list”** by using a toast/ notification/ anything. Also, redirect him/ her to the login page. Without login, you can not visit the single toy details page.
 
-    - Add one relevant section. Try to make it attractive.
+    - **Extra Section:** Add one relevant section. Try to make it attractive.
 
 
 <br/>
